@@ -1,0 +1,121 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin-left: 200px;
+  align-items: center;
+  height: 700px;
+  width: 70%;
+}
+
+.menu {
+  position: static;
+  padding-bottom: 200px;
+}
+
+#codar {
+  color: #d6000d;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  padding-right: 0;
+}
+
+#menu {
+  float: right;
+  margin-right: 250px;
+}
+
+#login {
+  background-color: #d6000d;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+#logo {
+  font-size: 60px;
+  padding: 0px;
+  border: 0px;
+  width: 500px;
+  position: absolute;
+}
+
+#menu ul li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: #d6000d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+}
+
+h2 {
+  margin-top: 0px ;
+  color: #d6000d;
+  font-size: 50px;
+}
+
+.orcamento p {
+    margin-bottom: 5px;
+}
+
+.orcamento button {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+i {
+  color: #d6000d;
+}
+
+#celular {
+  background-color: gainsboro;
+  border: 0px;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#ligacao {
+  align-items: unset;
+}
+
+#servicos ul i {
+  padding-bottom: 5px;
+  padding-right: 30px;
+}
+
+#container {
+  position: static;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  height: 200px;
+}
+#container .video_call {
+  padding: 0px;
+  border: 0px;
+  width: 500px;
+  position: absolute;
+}
+
+.orcamento {
+  float: right;
+}

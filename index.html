@@ -18,13 +18,15 @@
   </head>
   <body>
     <div class="menu">
-      <div id="logo"><span id="codar"> Codar</span>.</div>
+      <div id="logo"><span class="codar"> Codar</span>.</div>
       <nav id="menu">
         <ul>
           <a href="index.html"><li>Início</li></a>
           <a href="#"><li>Serviços</li></a>
           <a href="#"><li>Contato</li></a>
-          <a href="#"><li id="login">Login</li></a>
+          <button id="login">
+            <a href="#"><li>Login</li></a>
+          </button>
         </ul>
       </nav>
     </div>
@@ -50,36 +52,81 @@
         <li><i class="fas fa-check-circle"></i>Chat online</li>
         <li><i class="fas fa-check-circle"></i>Blog integrado</li>
       </ul>
-      <img src="assets/coding_.png" width="250px" alt="" />
+      <div id="coding">
+        <img src="assets/coding_.png" width="250px" alt="" />
+      </div>
     </div>
 
-    <div id="ligacao">
+    <div id="contato">
       <p>Nossa equipe está à disposição!</p>
-      <input
-        type="text"
-        class="number"
-        placeholder="Celular"
-        name=""
-        id="celular"
-      />
-      <button id="">Ligamos pra você</button>
+
+      <div id="botao-ligar">
+        <form action="#" id="form"></form>
+          <input type="number" class="number" placeholder="Celular" id="celular" />
+          <button type="submit" id="ligar">Ligamos para você</button>
+        </form>
+      </div>
     </div>
-    <div>
-      Já tive experiências com outras 4 empresas da área e a Codar é sem sombra
-      de dúvidas superior em todos os aspectos. Pedro Ferreira Construtora
-      Minari
-    </div>
-    <div>
-      Processos bem simples e criação de um site exatamente como a minha escola
-      queria! Maria Rita Escola Criança Feliz
+
+    <div id="comentario">
+      <div class="comentario">
+        <i class="fas fa-circle fa-5x"></i>
+        <div>
+          <p>
+            Já tive experiências com outras 4 empresas da área e a Codar é sem
+            sombra de dúvidas superior em todos os aspectos.
+          </p>
+          <span class="autor"> Pedro Ferreira</span>
+          <span class="local"> Construtora Minari</span>
+        </div>
+      </div>
+      <div class="comentario">
+        <i class="fas fa-circle fa-5x"></i>
+        <div>
+          <p>
+            Processos bem simples e criação de um site exatamente como a minha
+            escola queria!
+          </p>
+          <span class="autor"> Maria Rita </span>
+          <span class="local"> Escola Criança Feliz </span>
+        </div>
+      </div>
     </div>
     <footer>
-      <div>Codar. Criamos websites incríveis</div>
-      <div>Sobre Amamos criar soluções e entregar sites incríveis</div>
-      <div>
-        Contato 123 Av. Manjar - Nárnia +55 96 2321-3131 contato@codar.com
+      <div id="footer">
+        <div class="footer">
+          <span class="codar">Codar.</span>
+          <div class="text-footer">
+            <p>Criamos websites incríveis</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <span>Sobre</span>
+          <div class="text-footer">
+            <p>Amamos criar soluções e entregar sites incríveis</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <span>Contato</span>
+          <div class="text-footer">
+            <p>123 Av. Manjar - Nárnia</p>
+            <p>+55 96 2321-3131</p>
+            <p class="email">contato@codar.com</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <span>Redes sociais</span>
+          <div class="text-footer">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </div>
+        </div>
       </div>
-      <div>Redes sociais</div>
     </footer>
+    
   </body>
 </html>
